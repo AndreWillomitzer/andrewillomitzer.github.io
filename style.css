@@ -1,0 +1,72 @@
+body {
+background-image: url(Coffee.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+	display: flex;
+    color: lavender;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+	font-family: 'Courgette', cursive;
+}
+
+.nav ,.nav-link,.nav-link-active{
+	color: white;
+	font-family: "Courgette", cursive;
+	font-size: 20px;
+}
+
+nav a:hover{
+	color: #CD88AF;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.col-sm-3 {
+
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Courgette', cursive;
+  color: lavender;
+  padding: 1em;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
